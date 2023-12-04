@@ -1,0 +1,76 @@
+/* Styles for update and delete buttons */
+.update-icon, .delete-button {
+  padding: 5px 10px;
+  background-color: #e75d07;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Styles for icon buttons */
+.icon-button {
+  display: inline-block; 
+  margin-right: 10px; 
+  cursor: pointer;
+}
+
+/* Styles for button containers */
+.button-container {
+  gap: 10px;
+}
+
+.button-container-icon {
+  display: flex;
+  gap: 2px;
+}
+
+
+/* Styles for star icons */
+.star-filled {
+  color: yellow;
+}
+
+.star-empty {
+  color: gray;
+}
+
+/* CSS for the RatingsTable container */
+.RatingsTable {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}  
+
+/* Styles for search/filter */
+.filters-container {
+  margin: 20px;
+}
+
+.search-bar {
+  margin-bottom: 10px;
+}
+
+.filter-options {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.filter-options input {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+/* General button styles */
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3;
+}

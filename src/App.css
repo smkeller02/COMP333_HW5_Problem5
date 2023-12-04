@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height: 100%;
+}
+
+/* Styles for links */
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Styles for the main container */
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+/* Styles for the main content */
+.main-content {
+  flex: 1; 
+  padding: 20px;
+  background-color: #acaceb;
+}
+
+/* Styles for sidebar */
+.sidebar-right {
+  width: 20%; 
+  padding: 20px; 
+  background-color: #f0f0f0; 
+}
+
+/* Style for logout button */
+.exit-button {
+  margin-bottom: 20px; 
+}
+
+/* Styles for the login and signup sections */
+.login_signin{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+/* Styles for login and signup buttons */
+.login, .signin {
+  margin-bottom: 20px; 
+  color: black; 
+  border: none; 
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px; 
+}
+
+/* Styles for the center section of the login and signup area */
+.login-signup-center {
+  background-color: #f0f0f0;
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for the main heading in the login and signup area */
+.login-signup-center .big {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Styles for the strong elements in the login and signup area */
+.login-signup-center strong {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Styles for the login and create-user buttons in the login and signup area */
+.login-signup-center .login,
+.login-signup-center .create-user {
+  background-color: #0074e4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover styles for the login and create-user buttons */
+.login-signup-center .login:hover,
+.login-signup-center .create-user:hover {
+  background-color: #0054b7;
+}
